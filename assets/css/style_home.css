@@ -1,0 +1,128 @@
+.foot-bg{
+  background-color: #A9A9A9;
+}
+
+.huruf {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+  height: 100px;
+}
+
+.j-110 {margin-top: 110px;} .j-100 {margin-top: 100px;} .j-90 {margin-top: 90px;} .j-80 {margin-top: 80px;} .j-75 {margin-top: 75px;} .j-70 {margin-top: 70px;} .j-60 {margin-top: 60px;} .j-50 {margin-top: 50px;} .j-40 {margin-top: 40px;} .j-30 {margin-top: 30px;}
+.j-33{margin-top: 33px;} .j-65{margin-top: 65px;} .j-55{margin-top: 55px;} .j-35{margin-top: 35px;}  .pj-60{margin-bottom: : 605px;} 
+ 
+.jl-35 {margin-left: 35%; margin-right: 35%; min-width: 300px}
+
+.login {
+  width: 30%;
+}
+
+.login-body {
+  background-color: #343a40;
+  color: white;
+}
+.login-head {
+  background-color: #007bff;
+  color: white;
+}
+
+.user-aktif:hover {
+	cursor: pointer;
+}
+
+.doc {
+	width: 40%;
+	margin:auto;
+	padding:auto;
+}
+
+#sk {
+	padding-right: 0px;
+	margin-right: 0px;
+}
+#non-sk {
+	padding-left: 0px;
+	margin-left: 0px;
+}
+
+#halaman {
+	margin-left: 18%;
+}
+
+#side_bar {
+	width: 18%;
+	background-color: #b7babf;
+	height:100%; position:fixed!important;
+	z-index:1;
+	overflow:auto
+}
+
+.link:hover {
+	text-decoration: none;
+}
+.ho:visited {
+	background-color: #b7babf;
+	text-decoration: none;
+}
+.ho:active {
+	background-color: #b7babf;
+	text-decoration: none;
+}
+.ho:link {
+	background-color: #b7babf;
+	text-decoration: none;
+}
+.ho:hover {
+	background-color: white;
+	text-decoration: none;
+	color: black;
+}
+
+.btn_nama {
+	background-color: #b7babf;
+}
+
+.btn_n:hover {
+	cursor: pointer;
+}
+
+.bg-g {
+	background-color: #edf1f7;
+}
+
+.trash{
+	padding:2px; 
+	border:1px solid red; 
+	margin-left:10px; 
+	background-color:red; 
+	color:#fff
+}
+
+#input_tahun {
+    display: block;
+    width: 30%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+#input_tahun::-ms-expand {
+    background-color: transparent;
+    border: 0;
+}
+
+#input_tahun:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}

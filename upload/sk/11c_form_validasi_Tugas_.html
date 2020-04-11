@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form 2</title>
+</head>
+<body>
+	<h2>User input</h2>
+	<form method="POST" autocomplete="on" action="#">
+		<table>
+			<tr>
+				<td>Name</td>
+				<td>:</td>
+				<td><input pattern="[A-Za-z]{3,50}" type="text" name="name" size="30" maxlength="50" placeholder="Name (Max 50 karakter)" title="Nama hanya boleh berisi Huruf besar dan kecil dan min 3 karakter dan max 50 karakter"></td>
+			</tr>
+			<tr>
+				<td>Address</td>
+				<td>:</td>
+				<td><textarea type="textarea" name="address" rows="5" cols="30" size="30" placeholder="Name (Max 100 karakter)"></textarea></td>
+			</tr>
+			<tr>
+				<td>Gender</td>
+				<td>:</td>
+				<td>
+					<input type="radio" name="gender" value="male">Male <br />
+					<input type="radio" name="gender" value="female">Female <br />
+				</td>
+			</tr>
+			<tr>
+				<td>Email</td>
+				<td>:</td>
+				<td><input pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" type="text" name="email"size="30" placeholder="email" title="Email diikuti oleh tanda @ setelah nama i=email dan . sebelum domain"></td>
+			</tr>
+			<tr>
+				<td>City</td>
+				<td>:</td>
+				<td>
+					<input list="city" name="city">
+				    <datalist id="city">
+					    <option value="Airport West">
+					    <option value="Box Hill">
+					    <option value="Yarraville">
+				    </datalist>
+				</td>
+			</tr>
+			<tr>
+				<td>Hobby</td>
+				<td>:</td>
+				<td>
+					<input type="checkbox" name="hobby[]" value="travelling">Travelling <br />
+					<input type="checkbox" name="hobby[]" value="reading">Reading <br />
+					<input type="checkbox" name="hobby[]" value="swimming">Swimming <br />
+					<input type="checkbox" name="hobby[]" value="painting">Painting <br />
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td><input type="submit" name="simpan" value="Submit"><td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>
